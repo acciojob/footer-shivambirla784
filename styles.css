@@ -1,1 +1,87 @@
 /* your code here */
+footer{
+	font-family: sans-serif;
+	background-color: #000000;
+	padding: 20px 30px;
+	color: white;
+	height: 60vh;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo_name{
+	font-size: 2.5rem;
+}
+
+.media-icons{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px ;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e1306c;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.link-boxes{
+	display:flex;
+	justify-content: space-between;
+}
+
+
+
+
+.links ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.links ul li{
+	margin-bottom: 10px;
+}
+
+.bottom-details{
+	height: 50px;
+	background-color: #2c303a;
+	display: flex;
+	justify-content: space-between;
+}
+
+
